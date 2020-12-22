@@ -1,15 +1,13 @@
 {
-  "private": true,
-  "version": "1.0.14",
+  "name": "madalyn-21.github.io",
+  "version": "1.0.0",
   "main": "index.js",
+  "repository": "https://github.com/Madalyn-21/madalyn-21.github.io.git",
   "license": "MIT",
-  "scripts": {
-    "build": "yarn workspace site build",
-    "clean": "yarn workspace site clean",
-    "develop": "yarn workspace site develop"
-  },
-  "workspaces": [
-    "gatsby-theme-intro",
-    "site"
-  ]
+  "dependencies": {
+    "@wkocjan/gatsby-theme-intro": "^1.0.14",
+    "gatsby": "^2.29.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
 }
